@@ -1,0 +1,32 @@
+{
+  "name": "bangla-caption-studio-server",
+  "version": "1.6.0",
+  "description": "Local AI backend for Bangla Caption Studio (Premiere Pro CEP extension). Handles audio extraction, Bangla/English/Banglish speech-to-text via faster-whisper, transcript cleanup, and SRT/VTT/JSON/TXT/burned-in export.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node -e \"console.log('Node.js is working!')\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "form-data": "^4.0.6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "premiere-pro",
+    "cep",
+    "bangla",
+    "caption",
+    "subtitle",
+    "whisper",
+    "speech-to-text",
+    "ai"
+  ],
+  "author": "Bangla Caption Studio Team",
+  "license": "MIT"
+}
