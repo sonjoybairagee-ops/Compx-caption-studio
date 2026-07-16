@@ -16,8 +16,5 @@
       "src": "/(.*)",
       "dest": "/server.js"
     }
-  ],
-  "env": {
-    "USE_WHISPER_API": "true"
-  }
+  ]
 }
